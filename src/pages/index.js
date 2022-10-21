@@ -172,24 +172,16 @@
 // export default IndexPage
 
 // export const Head = () => <title>Home Page</title>
+
 import * as React from "react"
+import MainPage from "./MainPage.js"
 
-const Header = () => {
+const IndexPage = () => {
   return (
     <div>
-      <h1> Home </h1>
-      <h1> About </h1>
+      <MainPage></MainPage>
     </div>
   )
 }
 
-const MainPage = () => {
-  return (
-    <div>
-      <h1>Hi</h1>
-      <Header></Header>
-    </div>
-  )
-}
-
-export default MainPage
+export default IndexPage
