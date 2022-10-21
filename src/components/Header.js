@@ -6,6 +6,7 @@ const Header = () => {
     <div style={headerStyles.header} class="header">
       <h1> Home </h1>
       <h1> About </h1>
+      <h1> amongus </h1>
     </div>
   )
 }
