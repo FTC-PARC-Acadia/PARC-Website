@@ -179,7 +179,7 @@ import MainPage from "./MainPage.js"
 const IndexPage = () => {
   return (
     <div>
-      <MainPage></MainPage>
+      <MainPage/>
     </div>
   )
 }
