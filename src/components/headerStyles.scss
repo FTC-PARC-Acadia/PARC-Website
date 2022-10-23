@@ -1,4 +1,6 @@
+@use "../styles" as styles;
+
 .header {
     display: flex;
-    background: gray;
+    background: styles.$abbot-blue;
 }
