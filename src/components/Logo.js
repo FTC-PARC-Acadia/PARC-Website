@@ -1,10 +1,11 @@
 import * as React from "react"
+import * as logoStyles from "./logoStyles.scss"
 
 const Logo = () => {
     return(
         <div>
             <svg>
-                <circle/>
+                <circle class="circle"/>
             </svg>
         </div>
     )
