@@ -175,6 +175,7 @@
 
 import * as React from "react"
 import MainPage from "./MainPage.js"
+import "../styles.scss"
 
 const IndexPage = () => {
   return (

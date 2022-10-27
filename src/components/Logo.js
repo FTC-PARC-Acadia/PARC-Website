@@ -3,10 +3,8 @@ import * as logoStyles from "./logoStyles.scss"
 
 const Logo = () => {
     return(
-        <div>
-            <svg>
-                <circle class="circle"/>
-            </svg>
+        <div class="logo" style={logoStyles.logo}>
+            <img src={'/images/logo.svg'}/>
         </div>
     )
 }

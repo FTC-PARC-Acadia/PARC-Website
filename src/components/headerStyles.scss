@@ -1,6 +1,73 @@
 @use "../styles" as styles;
 
 .header {
+    font-family: styles.$header;
+    color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: styles.$abbot-blue;
+    width: 100%;
+    margin: 0;
+    height: 6rem;
+}
+
+.headerName {
+    justify-self: center;
+    display: flex;
+}
+
+.headerLeft {
+    display: flex;
+    margin-left: 0.5rem;
+    align-items: center;
+}
+
+.headerRight {
+    justify-self: end;
+    padding-right: 1rem;
+    display: flex;
+}
+
+.menu {
+    display: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header h1 {
+    padding: 1rem;
+}
+
+.header h1:hover, .menu:hover {
+    text-decoration: underline;
+    background: rgba($color: styles.$andover-blue, $alpha: 0.2);
+    border-radius: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header {
+        display: flex;
+    }
+
+    .headerLeft h1 {
+        display: none;
+    }
+
+    .headerRight h1 {
+        display: none;
+    }
+
+    .headerName { 
+        margin-left: 0;
+        margin-right: auto;
+    }
+    
+    .menu {
+        display: flex;
+        padding: 0.5rem;
+    }
 }
