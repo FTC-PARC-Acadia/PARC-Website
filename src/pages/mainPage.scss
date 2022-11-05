@@ -1,0 +1,8 @@
+.mainPage {
+    display: grid;
+}
+
+.header, .titlePage {
+    grid-column: 1;
+    grid-row: 1;
+}
