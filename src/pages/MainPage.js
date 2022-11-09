@@ -7,8 +7,8 @@ const MainPage = () => {
   
   return (
     <div class="mainPage" style={mainPageStyles.mainPage}>
-      <Header class="header" style={mainPageStyles.header} />
-      <TitlePage class="titlePage" style={mainPageStyles.titlePage} />
+      <Header />
+      <TitlePage />
     </div>
   )
 }
